@@ -1,0 +1,36 @@
+<main class="flex justify-center items-center min-h-screen">
+    <div class="flex flex-col items-center justify-center">
+        <img src="img/logo-holymeet.png" alt="" class="h-35 logo">
+        <h1 class="text-7xl text-amber-950 text-center">Holymeet</h1>
+        <i class="fa-solid fa-cross mt-5 text-amber-950"></i>
+
+        <h1 class="text-5xl text-amber-950 sub-t">Bienvenido, Hermano</h1>
+        <p class="mt-4 text-2xl text-mauve-600">Conecta, comparte, y aprende juntos en la fe.</p>
+
+        <div class="mt-15 flex flex-col gap-5">
+            <a href="" class="flex items-center justify-center gap-3 text-2xl text-white border-2 py-4 px-17 rounded-4xl bg-amber-950 text-center"><i class="fa-solid fa-video"></i> Crear Sala <i class="fa-solid fa-arrow-right-long"></i></a>
+            <a href="" class="flex items-center gap-3 text-2xl text-amber-950 border-2 py-4 px-17 rounded-4xl "><i class="fa-solid fa-video"></i> Unirse a una Sala <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+    </div>
+</main>
+
+<style>
+    .logo {
+        animation: flotar 3s ease-in-out infinite;
+    }
+
+    @keyframes flotar {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-12px);
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .logo {
+            animation: none;
+        }
+    }
+</style>

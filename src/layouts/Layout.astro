@@ -3,10 +3,11 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
+		<link rel="icon" type="image/svg+xml" href="img/logo-holymeet.png" />
+		<link rel="icon" href="img/logo-holymeet.png" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>Holymeet | Inicio</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 	</head>
 	<body>
 		<slot />
@@ -14,10 +15,25 @@
 </html>
 
 <style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
+	html{
+		scroll-behavior: smooth;
 	}
+
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+</style>
+
+<style is:global>
+	
+  body {
+    font-family: "Onest", sans-serif;
+  }
+
+	.sub-t {
+    	font-family: "Playfair Display", serif;
+  	}
+
 </style>
